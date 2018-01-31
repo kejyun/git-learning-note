@@ -1,5 +1,17 @@
 # 分支（Branch）
 
+## 切換分支
+
+```shell
+git checkout branch_name
+```
+
+## 切換到指定 commit
+
+```shell
+git checkout bc29f91
+```
+
 ## 查詢目前所在位置 hash
 
 ```shell
