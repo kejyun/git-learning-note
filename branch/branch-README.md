@@ -31,3 +31,14 @@ git show-ref
 ```shell
 git for-each-ref
 ```
+
+## 切換到遠端分支
+
+```shell
+git fetch
+git checkout test
+```
+
+```shell
+git checkout -b test origin/test
+```
