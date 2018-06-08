@@ -43,6 +43,10 @@ git log --pretty=oneline --graph --decorate --all
 
 ![git log --oneline --graph](./images/git-log-oneline-graph-decorate-all-pretty.png)
 
+```shell
+git log --oneline --graph --color --all --decorate
+```
+
 
 ## 搜尋指定 commit 訊息的 Log 紀錄
 
