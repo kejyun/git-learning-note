@@ -54,5 +54,30 @@ git log --oneline --graph --color --all --decorate
 git log --oneline --grep="文章"
 ```
 
+## 顯示樹狀 log
+
+```shell
+git log --graph --oneline --all
+```
+
+```shell
+git log --graph --pretty=oneline --abbrev-commit
+```
+
+```
+$ git log --graph --pretty=oneline --abbrev-commit
+*   74eff4f Merge branch 'feature/jwt_auth_package_update' of github.com:kejyun/kejyun
+|\
+| * 6ad01dd [jwt] upgrade jwt package at frontend
+| * 7690a01 [package] - jwt upgrade
+* | 8b25aeb [test] - codedeploy
+* | d172c17 [test] - code deploy
+* | 37474c1 [Module] - add KJModule
+* | 1c6c4c5 [test] - test code deploy
+|/
+* 1150a44 [modify] - job update
+```
+
 ## 參考資料
 * [gitk - Viewing full version tree in git - Stack Overflow](https://stackoverflow.com/questions/5361019/viewing-full-version-tree-in-git)
+* [Unable to show a Git tree in terminal - Stack Overflow](https://stackoverflow.com/questions/1064361/unable-to-show-a-git-tree-in-terminal)
